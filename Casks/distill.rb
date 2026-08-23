@@ -2,7 +2,7 @@
 cask "distill" do
   name "distill"
   desc "AI-powered knowledge compactor for agents"
-  homepage "https://github.com/dotbrains/distill"
+  homepage "https://github.com/smeltery/distill"
   version "0.2.0"
 
   livecheck do
@@ -13,22 +13,22 @@ cask "distill" do
 
   on_macos do
     on_intel do
-      url "https://github.com/dotbrains/distill/releases/download/v#{version}/distill_darwin_amd64.tar.gz"
+      url "https://github.com/smeltery/distill/releases/download/v#{version}/distill_darwin_amd64.tar.gz"
       sha256 "9628bd74d07a288ecbb56691ddeabea7e9cfc498518aa2c8c1a4669cdb24d7cb"
     end
     on_arm do
-      url "https://github.com/dotbrains/distill/releases/download/v#{version}/distill_darwin_arm64.tar.gz"
+      url "https://github.com/smeltery/distill/releases/download/v#{version}/distill_darwin_arm64.tar.gz"
       sha256 "7e6fd2b93523c367948a4b1ac514ce9b040c37688716b9ba0383458adf32c18d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotbrains/distill/releases/download/v#{version}/distill_linux_amd64.tar.gz"
+      url "https://github.com/smeltery/distill/releases/download/v#{version}/distill_linux_amd64.tar.gz"
       sha256 "acf7480e66e2506d4f2f9cba1afe29a7eefdc42ede6843da45fcf93f688d2fab"
     end
     on_arm do
-      url "https://github.com/dotbrains/distill/releases/download/v#{version}/distill_linux_arm64.tar.gz"
+      url "https://github.com/smeltery/distill/releases/download/v#{version}/distill_linux_arm64.tar.gz"
       sha256 "8feab3b471b6047130f984116f35a34d80acc068ff9344323e834b4bd66a5fd8"
     end
   end

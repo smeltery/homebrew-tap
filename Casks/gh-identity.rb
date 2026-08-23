@@ -2,7 +2,7 @@
 cask "gh-identity" do
   name "gh-identity"
   desc "Multi-account GitHub identity management — automatic context-based account switching and per-directory identity binding."
-  homepage "https://github.com/dotbrains/gh-identity"
+  homepage "https://github.com/smeltery/gh-identity"
   version "0.4.0"
 
   livecheck do
@@ -14,26 +14,26 @@ cask "gh-identity" do
 
   on_macos do
     on_intel do
-      url "https://github.com/dotbrains/gh-identity/releases/download/v#{version}/gh-identity_#{version}_darwin_amd64.tar.gz",
-        verified: "github.com/dotbrains/gh-identity"
+      url "https://github.com/smeltery/gh-identity/releases/download/v#{version}/gh-identity_#{version}_darwin_amd64.tar.gz",
+        verified: "github.com/smeltery/gh-identity"
       sha256 "d67e9ea364da0f8cd4f3067f9b8f5d80b8660597bd32f504cfcf8cf9da485d8e"
     end
     on_arm do
-      url "https://github.com/dotbrains/gh-identity/releases/download/v#{version}/gh-identity_#{version}_darwin_arm64.tar.gz",
-        verified: "github.com/dotbrains/gh-identity"
+      url "https://github.com/smeltery/gh-identity/releases/download/v#{version}/gh-identity_#{version}_darwin_arm64.tar.gz",
+        verified: "github.com/smeltery/gh-identity"
       sha256 "2a8866bb0980b1b72822a18fe36c10da065a9a8eeacf9183e070d04fd7054187"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotbrains/gh-identity/releases/download/v#{version}/gh-identity_#{version}_linux_amd64.tar.gz",
-        verified: "github.com/dotbrains/gh-identity"
+      url "https://github.com/smeltery/gh-identity/releases/download/v#{version}/gh-identity_#{version}_linux_amd64.tar.gz",
+        verified: "github.com/smeltery/gh-identity"
       sha256 "af101ece1cd24756e7011b01608be4feb1d794682981c9bbbdcb700407074888"
     end
     on_arm do
-      url "https://github.com/dotbrains/gh-identity/releases/download/v#{version}/gh-identity_#{version}_linux_arm64.tar.gz",
-        verified: "github.com/dotbrains/gh-identity"
+      url "https://github.com/smeltery/gh-identity/releases/download/v#{version}/gh-identity_#{version}_linux_arm64.tar.gz",
+        verified: "github.com/smeltery/gh-identity"
       sha256 "de556b3d7eac8a4882e172680395f52c45fb6329dfde3836f6276e995fe35271"
     end
   end

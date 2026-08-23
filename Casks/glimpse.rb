@@ -2,7 +2,7 @@
 cask "glimpse" do
   name "glimpse"
   desc "GitHub-style git diff viewer CLI"
-  homepage "https://github.com/dotbrains/glimpse"
+  homepage "https://github.com/smeltery/glimpse"
   version "0.2.0"
 
   livecheck do
@@ -13,22 +13,22 @@ cask "glimpse" do
 
   on_macos do
     on_intel do
-      url "https://github.com/dotbrains/glimpse/releases/download/v#{version}/glimpse_darwin_amd64.tar.gz"
+      url "https://github.com/smeltery/glimpse/releases/download/v#{version}/glimpse_darwin_amd64.tar.gz"
       sha256 "af15431c70c4db93c4f2fe27cb4d3785ddd1203dd235fcf3ee4797f36b33dff0"
     end
     on_arm do
-      url "https://github.com/dotbrains/glimpse/releases/download/v#{version}/glimpse_darwin_arm64.tar.gz"
+      url "https://github.com/smeltery/glimpse/releases/download/v#{version}/glimpse_darwin_arm64.tar.gz"
       sha256 "ceb80ed781dcc38f38664be3c38c6565fcbede47fc81858f3e39f2fc0ff4fb78"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotbrains/glimpse/releases/download/v#{version}/glimpse_linux_amd64.tar.gz"
+      url "https://github.com/smeltery/glimpse/releases/download/v#{version}/glimpse_linux_amd64.tar.gz"
       sha256 "56b2d0fe80223a55ec43344852125d6ba30a55c1ca51a73eff7350f9826c8a15"
     end
     on_arm do
-      url "https://github.com/dotbrains/glimpse/releases/download/v#{version}/glimpse_linux_arm64.tar.gz"
+      url "https://github.com/smeltery/glimpse/releases/download/v#{version}/glimpse_linux_arm64.tar.gz"
       sha256 "8c44e5eb23def604239dc7c1f272c66e65b7edd6f753a4c17016f7910dcc3b45"
     end
   end

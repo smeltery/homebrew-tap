@@ -2,7 +2,7 @@
 cask "prr" do
   name "prr"
   desc "AI-powered PR code review CLI"
-  homepage "https://github.com/dotbrains/prr"
+  homepage "https://github.com/smeltery/prr"
   version "0.11.0"
 
   livecheck do
@@ -13,22 +13,22 @@ cask "prr" do
 
   on_macos do
     on_intel do
-      url "https://github.com/dotbrains/prr/releases/download/v#{version}/prr_darwin_amd64.tar.gz"
+      url "https://github.com/smeltery/prr/releases/download/v#{version}/prr_darwin_amd64.tar.gz"
       sha256 "bc5147786f854c28ddc242a30d7febe379136b1b087e6f223e588ec70d94ad2a"
     end
     on_arm do
-      url "https://github.com/dotbrains/prr/releases/download/v#{version}/prr_darwin_arm64.tar.gz"
+      url "https://github.com/smeltery/prr/releases/download/v#{version}/prr_darwin_arm64.tar.gz"
       sha256 "b5026f567c9f5e58620ac7c0e193d99da42b6436f8f052f9aac912129d3b9da6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotbrains/prr/releases/download/v#{version}/prr_linux_amd64.tar.gz"
+      url "https://github.com/smeltery/prr/releases/download/v#{version}/prr_linux_amd64.tar.gz"
       sha256 "e05efd9959f77f0af39cf746d729a721bcab4186fd67774539997b918591f533"
     end
     on_arm do
-      url "https://github.com/dotbrains/prr/releases/download/v#{version}/prr_linux_arm64.tar.gz"
+      url "https://github.com/smeltery/prr/releases/download/v#{version}/prr_linux_arm64.tar.gz"
       sha256 "a71e7d42628b3aa96a07f6a9a16b9768c472e74a8233679960f410d5fddc9f0d"
     end
   end

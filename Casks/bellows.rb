@@ -5,28 +5,28 @@ cask "bellows" do
   on_macos do
     on_intel do
       sha256 "4283e2314904ab37841eafbc3ec3bf37deb0ac3ea372715216a55f77c2b840f5"
-      url "https://github.com/dotbrains/bellows/releases/download/v#{version}/bellows_darwin_amd64.tar.gz"
+      url "https://github.com/smeltery/bellows/releases/download/v#{version}/bellows_darwin_amd64.tar.gz"
     end
     on_arm do
       sha256 "a7f929028f4cf6904eeaa2c7a63f06d142752e138e9d6379fceb020b1031acc6"
-      url "https://github.com/dotbrains/bellows/releases/download/v#{version}/bellows_darwin_arm64.tar.gz"
+      url "https://github.com/smeltery/bellows/releases/download/v#{version}/bellows_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
       sha256 "ba2d13136f15a0f8e07c50a553e009f01791dd2c5b59afc13e2f838cf0c0dc47"
-      url "https://github.com/dotbrains/bellows/releases/download/v#{version}/bellows_linux_amd64.tar.gz"
+      url "https://github.com/smeltery/bellows/releases/download/v#{version}/bellows_linux_amd64.tar.gz"
     end
     on_arm do
       sha256 "6b6a059094a91f9d5055bfaa928e83cb0c3cff9a5dc94ca08e3eab902ad393f6"
-      url "https://github.com/dotbrains/bellows/releases/download/v#{version}/bellows_linux_arm64.tar.gz"
+      url "https://github.com/smeltery/bellows/releases/download/v#{version}/bellows_linux_arm64.tar.gz"
     end
   end
 
   name "bellows"
   desc "Run GitHub Actions locally before you push"
-  homepage "https://github.com/dotbrains/bellows"
+  homepage "https://github.com/smeltery/bellows"
 
   livecheck do
     skip "Auto-generated on release."

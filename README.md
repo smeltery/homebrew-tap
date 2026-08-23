@@ -1,32 +1,32 @@
-# Homebrew Tap for dotbrains
+# Homebrew Tap for smeltery
 
 [![License: PolyForm Shield 1.0.0](https://img.shields.io/badge/License-PolyForm%20Shield%201.0.0-blue.svg)](https://polyformproject.org/licenses/shield/1.0.0/)
 
-This is the official Homebrew tap for dotbrains tools.
+This is the official Homebrew tap for smeltery tools.
 
 ## Installation
 
 ```bash
 # Add the tap
-brew tap dotbrains/tap
+brew tap smeltery/tap
 ```
 
 ### ConfigSync
 
 ```bash
-brew install --cask dotbrains/tap/configsync
+brew install --cask smeltery/tap/configsync
 ```
 
 ### PRR
 
 ```bash
-brew install --cask dotbrains/tap/prr
+brew install --cask smeltery/tap/prr
 ```
 
 ### AWSW
 
 ```bash
-brew install --cask dotbrains/tap/awsw
+brew install --cask smeltery/tap/awsw
 ```
 
 ## Available Casks
@@ -43,6 +43,6 @@ This repository is automatically maintained. Cask updates are handled by GoRelea
 
 For issues with specific tools, please file issues in their respective repositories:
 
-- [ConfigSync](https://github.com/dotbrains/configsync/issues)
-- [PRR](https://github.com/dotbrains/prr/issues)
-- [AWSW](https://github.com/dotbrains/awsw/issues)
+- [ConfigSync](https://github.com/smeltery/configsync/issues)
+- [PRR](https://github.com/smeltery/prr/issues)
+- [AWSW](https://github.com/smeltery/awsw/issues)

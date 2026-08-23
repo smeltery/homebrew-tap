@@ -2,7 +2,7 @@
 cask "aptscout" do
   name "aptscout"
   desc "Apartment availability tracker CLI"
-  homepage "https://github.com/dotbrains/aptscout"
+  homepage "https://github.com/smeltery/aptscout"
   version "0.3.0"
 
   livecheck do
@@ -13,22 +13,22 @@ cask "aptscout" do
 
   on_macos do
     on_intel do
-      url "https://github.com/dotbrains/aptscout/releases/download/v#{version}/aptscout_darwin_amd64.tar.gz"
+      url "https://github.com/smeltery/aptscout/releases/download/v#{version}/aptscout_darwin_amd64.tar.gz"
       sha256 "cdc936f296924d9c4abc6866183e85f4802358cdad1201ddbba371eebaa5070e"
     end
     on_arm do
-      url "https://github.com/dotbrains/aptscout/releases/download/v#{version}/aptscout_darwin_arm64.tar.gz"
+      url "https://github.com/smeltery/aptscout/releases/download/v#{version}/aptscout_darwin_arm64.tar.gz"
       sha256 "58b99810952ff4bfa0d46492c4b4f8cd8859157fa2070b05efa78c5cd64d46dc"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotbrains/aptscout/releases/download/v#{version}/aptscout_linux_amd64.tar.gz"
+      url "https://github.com/smeltery/aptscout/releases/download/v#{version}/aptscout_linux_amd64.tar.gz"
       sha256 "d9bf5d0dbe277e9a4c4b6da5f37db40fa19fd7e4ba69b5022c352fb684936e03"
     end
     on_arm do
-      url "https://github.com/dotbrains/aptscout/releases/download/v#{version}/aptscout_linux_arm64.tar.gz"
+      url "https://github.com/smeltery/aptscout/releases/download/v#{version}/aptscout_linux_arm64.tar.gz"
       sha256 "0e785e1a9bb8d66e47e968e621390a2dbaa6e93c9a27e11f77adb047d3f0c096"
     end
   end
