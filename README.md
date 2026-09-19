@@ -8,6 +8,6 @@ Official Homebrew tap for [smeltery](https://github.com/smeltery) tools.
 brew tap smeltery/tap
 ```
 
-Then install any [cask](docs/casks/README.md) or [formula](docs/formulae/README.md). Full package docs live under [`docs/`](docs/README.md).
+Then install any [cask](docs/casks/README.md). Full package docs live under [`docs/`](docs/README.md).
 
-Cask updates are published by GoReleaser from each tool’s repository. Formula updates are published by that tool’s release workflow. File product issues upstream, not in this tap.
+Cask updates are published by GoReleaser from each tool’s repository. File product issues upstream, not in this tap.
